@@ -10,8 +10,12 @@ if "chat_history" not in st.session_state:
 user_input = st.chat_input("Ask about the product...")
 
 # Load product data
-with open("products.json") as f:
-    products = json.load(f)
+try:
+    with open("products.json") as f:
+        products = json.load(f)
+except Exception as e:
+    st.error("❌ Failed to load product data. Check if 'products.json' exists.")
+    st.stop()
 
 def get_answer(user_input):
     user_input_lower = user_input.lower()
