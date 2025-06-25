@@ -1,0 +1,20 @@
+[
+  {
+    "product_id": "HP1234",
+    "name": "HP LaserJet 1234",
+    "print_speed": "22 ppm",
+    "connectivity": "WiFi, USB",
+    "cartridge": "HP 12A",
+    "features": "Duplex printing, mobile printing",
+    "includes": "Printer, toner, setup guide"
+  },
+  {
+    "product_id": "CanonX500",
+    "name": "Canon Pixma X500",
+    "print_speed": "18 ppm",
+    "connectivity": "USB only",
+    "cartridge": "Canon 245XL",
+    "features": "Color printing, photo printing",
+    "includes": "Printer, color cartridges, manual"
+  }
+]
