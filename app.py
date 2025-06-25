@@ -21,8 +21,7 @@ def get_answer(user_input):
             if key != "product_id" and user_input_lower in value.lower():
                 response_parts.append(f"{key.capitalize()}: {value}")
         if response_parts:
-            return f"Here is what I found for {product['name']}:
-" + "\n".join(response_parts)
+            return f"Here is what I found for {product['name']}:" + "\n".join(response_parts)
     return "Sorry, I couldn’t find that information."
 
 if user_input:
