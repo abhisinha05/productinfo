@@ -17,4 +17,13 @@
     "features": "Color printing, photo printing",
     "includes": "Printer, color cartridges, manual"
   }
+  {
+    "product_id": "CanonX600",
+    "name": "Canon Pixma X600",
+    "print_speed": "18 ppm",
+    "connectivity": "USB only",
+    "cartridge": "Canon 245XL",
+    "features": "Color printing, photo printing",
+    "includes": "Printer, color cartridges, manual"
+  }
 ]
